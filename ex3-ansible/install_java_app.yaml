@@ -2,7 +2,7 @@
 - hosts: app_nodes
   become: yes
   vars:
-    app_url: https://github.com/jkanclerz/computer-programming-4/releases/download/v1.29/my-ecommerce-0.1.jar
+    app_url: https://github.com/jnclerz/computer-programming-4/releases/download/v1.29/my-ecommerce-0.1.jar
     app_dir: /opt/ecommerce
     app_name: ecommerce
     my_favourite_software:
