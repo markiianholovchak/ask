@@ -1,9 +1,8 @@
-18.184.100.115
 1. docker
 
 sudo dnf install -y docker
 sudo systemctl start docker
- 
+
 sudo docker run --name=grafana -d -p 80:3000 grafana/grafana
 sudo docker run --name=influxdb -d -p 8086:8086 influxdb:1.8-alpine
 
